@@ -51,35 +51,41 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PubSub", "PubSub", "{856B66
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RequestResponse", "RequestResponse", "{08748D66-965B-402C-9F84-323ED879CDC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "MessagePatterns\P2P\Publisher\Publisher.csproj", "{C4261879-670B-4344-AD5B-D02911D64EE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "MessagePatterns\P2P\Publisher\Publisher.csproj", "{C4261879-670B-4344-AD5B-D02911D64EE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "MessagePatterns\P2P\Consumer\Consumer.csproj", "{23409116-05C7-412C-9DEA-4D52CD6192CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "MessagePatterns\P2P\Consumer\Consumer.csproj", "{23409116-05C7-412C-9DEA-4D52CD6192CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "MessagePatterns\PubSub\Consumer\Consumer.csproj", "{BE651DD1-E521-48F9-9217-297455B74D7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "MessagePatterns\PubSub\Consumer\Consumer.csproj", "{BE651DD1-E521-48F9-9217-297455B74D7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "MessagePatterns\PubSub\Publisher\Publisher\Publisher.csproj", "{B9144DB6-F9D6-4247-B46C-33A214BC478A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "MessagePatterns\PubSub\Publisher\Publisher\Publisher.csproj", "{B9144DB6-F9D6-4247-B46C-33A214BC478A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "MessagePatterns\WorkQueue\Consumer\Consumer.csproj", "{DF2412BC-6316-4F43-B599-99B3EE6703B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "MessagePatterns\WorkQueue\Consumer\Consumer.csproj", "{DF2412BC-6316-4F43-B599-99B3EE6703B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "MessagePatterns\WorkQueue\Publisher\Publisher.csproj", "{836A14D5-D69B-48F6-B175-4D51431D5425}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "MessagePatterns\WorkQueue\Publisher\Publisher.csproj", "{836A14D5-D69B-48F6-B175-4D51431D5425}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "MessagePatterns\RequestResponse\Publisher\Publisher.csproj", "{01E6D182-F4ED-4BAF-B819-8815C9433B0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "MessagePatterns\RequestResponse\Publisher\Publisher.csproj", "{01E6D182-F4ED-4BAF-B819-8815C9433B0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "MessagePatterns\RequestResponse\Consumer\Consumer.csproj", "{A1C7DCF6-4BA3-479E-B107-9AB100CA20C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "MessagePatterns\RequestResponse\Consumer\Consumer.csproj", "{A1C7DCF6-4BA3-479E-B107-9AB100CA20C4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MassTransit", "MassTransit", "{8D867972-C3FC-493C-88BA-D8CCCB32152B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "MassTransit\Producer\Producer.csproj", "{C3EF0643-7308-4017-846B-780A1C2A546F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "MassTransit\Producer\Producer.csproj", "{C3EF0643-7308-4017-846B-780A1C2A546F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "MassTransit\Consumer\Consumer.csproj", "{84BBF901-E0E6-4892-BBA0-652389153C83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "MassTransit\Consumer\Consumer.csproj", "{84BBF901-E0E6-4892-BBA0-652389153C83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "MassTransit\Shared\Shared.csproj", "{3E377943-475D-4927-94D8-2BA6D393219B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "MassTransit\Shared\Shared.csproj", "{3E377943-475D-4927-94D8-2BA6D393219B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RequestResponse", "RequestResponse", "{5B627627-D8A0-4B2E-812D-8A88B0024EBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "MassTransit\RequestResponse\Consumer\Consumer.csproj", "{8FD2306B-BB20-4101-832E-D0C184E3D6D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "MassTransit\RequestResponse\Consumer\Consumer.csproj", "{8FD2306B-BB20-4101-832E-D0C184E3D6D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "MassTransit\RequestResponse\Producer\Producer.csproj", "{2F163F0E-5B56-44F7-B69E-67B01E525ECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "MassTransit\RequestResponse\Producer\Producer.csproj", "{2F163F0E-5B56-44F7-B69E-67B01E525ECB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkerService", "WorkerService", "{866E59E9-97FD-4AD1-AFAB-5EC1150A0829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "MassTransit\WorkerService\Producer\Producer.csproj", "{C522C4ED-6D0A-418D-AB4D-2D94932D87E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "MassTransit\WorkerService\Consumer\Consumer.csproj", "{4DF868B3-74C4-4DB4-B2F1-2234A048CF3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -187,6 +193,14 @@ Global
 		{2F163F0E-5B56-44F7-B69E-67B01E525ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F163F0E-5B56-44F7-B69E-67B01E525ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F163F0E-5B56-44F7-B69E-67B01E525ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C522C4ED-6D0A-418D-AB4D-2D94932D87E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C522C4ED-6D0A-418D-AB4D-2D94932D87E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C522C4ED-6D0A-418D-AB4D-2D94932D87E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C522C4ED-6D0A-418D-AB4D-2D94932D87E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF868B3-74C4-4DB4-B2F1-2234A048CF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF868B3-74C4-4DB4-B2F1-2234A048CF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF868B3-74C4-4DB4-B2F1-2234A048CF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF868B3-74C4-4DB4-B2F1-2234A048CF3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,6 +240,9 @@ Global
 		{5B627627-D8A0-4B2E-812D-8A88B0024EBB} = {8D867972-C3FC-493C-88BA-D8CCCB32152B}
 		{8FD2306B-BB20-4101-832E-D0C184E3D6D5} = {5B627627-D8A0-4B2E-812D-8A88B0024EBB}
 		{2F163F0E-5B56-44F7-B69E-67B01E525ECB} = {5B627627-D8A0-4B2E-812D-8A88B0024EBB}
+		{866E59E9-97FD-4AD1-AFAB-5EC1150A0829} = {8D867972-C3FC-493C-88BA-D8CCCB32152B}
+		{C522C4ED-6D0A-418D-AB4D-2D94932D87E3} = {866E59E9-97FD-4AD1-AFAB-5EC1150A0829}
+		{4DF868B3-74C4-4DB4-B2F1-2234A048CF3C} = {866E59E9-97FD-4AD1-AFAB-5EC1150A0829}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19E6BB2D-00D6-4A9C-99D5-74B14EA58051}
